@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nouhaila Benabla | Digital Marketing & Brand Strategy</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="./ila/profile.jpeg" rel="icon" type="image/jpeg">
+</head>
+<body>
+
+    <!-- SCROLL PROGRESS INDICATOR -->
+    <div class="scroll-progress"></div>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Nouhaila</div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" title="Toggle Dark Mode">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="blur-shape blur-1"></div>
+            <div class="blur-shape blur-2"></div>
+        </div>
+
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text fade-in-up">
+                    <h1 class="hero-title">
+                        Hi, I'm Nouhaila <span class="wave">👋</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Digital Marketing & Content Creation</h2>
+                    <p class="hero-description">
+                        I help brands grow through strategy, creativity & performance.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" onclick="scrollToSection('contact')">Contact Me</button>
+                        <button class="btn btn-secondary" onclick="scrollToSection('projects')">View Projects</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-image fade-in">
+                <div class="image-wrapper">
+                    <img src="./ila/profile.jpeg" alt="Nouhaila Benabla" class="profile-img">
+                    <div class="floating-element"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="scroll-arrow">↓</div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title reveal-text">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="about-content fade-in-section">
+                <p class="about-text">
+                    Étudiante en Digital Marketing chez Nouaceur Wings Tech, passionnée par 
+                    la stratégie digitale, branding et création de contenu. 
+                    Motivée, créative et analytique, je cherche à créer des marques fortes 
+                    avec une vraie identité digitale.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title reveal-text">Skills</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="skills-grid fade-in-section">
+                <div class="skill-pill">
+                    <span>Social Media Strategy</span>
+                </div>
+                <div class="skill-pill">
+                    <span>Content Creation</span>
+                </div>
+                <div class="skill-pill">
+                    <span>Branding</span>
+                </div>
+                <div class="skill-pill">
+                    <span>Analyse Concurrentielle</span>
+                </div>
+                <div class="skill-pill">
+                    <span>Communication</span>
+                </div>
+                <div class="skill-pill">
+                    <span>Creativity</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title reveal-text">Projects</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="projects-grid fade-in-section">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./ila/prj1.png" alt="Branding Project – NAFAS">
+                        <div class="project-overlay">
+                            <a href="https://www.canva.com/design/DAHAKzTGaWg/LzE68K6aRknLmfOltxBR4g/edit?utm_content=DAHAKzTGaWg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" class="view-btn">
+  View Project
+</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Branding Project – NAFAS</h3>
+                        <p>Création d'identité visuelle et stratégie de communication.</p>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project2.jpg" alt="Avon Experience">
+                        <div class="project-overlay">
+                            <button class="view-btn">View Project</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Avon Experience</h3>
+                        <p>Expérience commerciale et gestion client.</p>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./ila/prj 3.png" alt="Content Strategy Project">
+                        <div class="project-overlay">
+                            <a href="https://www.canva.com/design/DAHAWOb7Z9E/stDRunUOcgE_Dt2oD-JZGQ/edit?utm_content=DAHAWOb7Z9E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" class="view-btn">
+  View Project
+</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Content Strategy Project</h3>
+                        <p>Planification de contenu et stratégie réseaux sociaux.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title reveal-text">Contact Me</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="contact-content fade-in-section">
+                <div class="contact-info">
+                    <a href="mailto:benablanouhaila@gmail.com" class="contact-item">
+                        <span class="contact-label">Email</span>
+                        <span class="contact-value">benablanouhaila@gmail.com</span>
+                    </a>
+                    <a href="tel:+212681238541" class="contact-item">
+                        <span class="contact-label">Phone</span>
+                        <span class="contact-value">+212 681-238541</span>
+                    </a>
+                    <div class="contact-item">
+                        <span class="contact-label">Location</span>
+                        <span class="contact-value">Casablanca - Bouskoura</span>
+                    </div>
+                </div>
+
+                <div class="social-links fade-in-section">
+                    <a href="https://www.linkedin.com/in/nouhaila-benabla/" target="_blank" class="social-link">
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://www.instagram.com/marketing_by_nouha?igsh=cTV2czR1ZGV1cXl4" target="_blank" class="social-link">
+                        <span>Instagram</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2026 Nouhaila Benabla | Digital Marketing & Brand Strategy</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
